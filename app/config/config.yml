@@ -1,0 +1,24 @@
+# Project specific config
+project:
+    source_dir: 'src'
+    vendor: ''
+    name: 'vendor/project'
+    description: ''
+    homepage: ''
+    license: ''
+    packages: []
+    repositories: []
+
+# Local module specific config
+module:
+    homepage: ''
+    license: ''
+    packages: []
+    repositories: []
+
+# Modman config
+modman:
+    dir: ''
+    dir_separator: '_'
+
+temp_dir: 'modcom'

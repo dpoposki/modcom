@@ -1,0 +1,26 @@
+{
+    "name": "poposki/modcom",
+    "description": "Converter for a modman to a composer-ready project",
+    "type": "library",
+    "homepage": "https://github.com/dpoposki",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darko Poposki",
+            "email": "darko.poposki+github@sitewards.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.16",
+        "symfony/config": "~3.0",
+        "symfony/console": "~3.0",
+        "symfony/filesystem": "~3.0",
+        "symfony/serializer": "~3.0",
+        "symfony/yaml": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Poposki\\ModCom\\": "src/Poposki/ModCom"
+        }
+    }
+}
